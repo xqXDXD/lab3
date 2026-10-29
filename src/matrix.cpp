@@ -14,6 +14,7 @@ Matrix create_matrix(int rows, int cols) {
  Matrix mat;
  mat.rows = rows;
  mat.cols = cols;
+ 
  // 2. Выделение памяти для массива указателей
  mat.data = new double*[rows];
  if (mat.data == nullptr) {

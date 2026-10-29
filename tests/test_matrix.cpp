@@ -17,6 +17,7 @@ TEST(MatrixTest, CreateMatrix_NormalCase) {
  }
  }
  // Освобождение памяти
+ free_matrix(A);
 }
 // 1.2. Сложение матриц
 TEST(MatrixTest, Addition_NormalCase) {
